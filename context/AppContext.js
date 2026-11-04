@@ -25,7 +25,7 @@ export function AppProvider({ children }) {
     if (typeof document !== 'undefined') {
       const htmlLang = lang === 'en' ? 'en-MY' : 'ms-MY';
       document.documentElement.lang = htmlLang;
-      console.log("source moi");
+      console.log("source moi 23223");
       // Ensure meta content-language is set for Google Translate and search engines
       let metaLang = document.querySelector('meta[http-equiv="content-language"]');
       if (!metaLang) {
